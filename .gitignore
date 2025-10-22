@@ -4,3 +4,4 @@ Release/*
 logs/*.log
 **/.DS_Store
 .idea/*
+imgui.ini
