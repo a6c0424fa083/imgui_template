@@ -79,8 +79,4 @@ else()
 endif()
 
 # main
-if(EXISTS "${CMAKE_BINARY_DIR}/lib${IMPLOT_LIB_NAME}.a" OR EXISTS "${CMAKE_BINARY_DIR}/lib${IMPLOT_LIB_NAME}.lib")
-    target_link_libraries(${MAIN_TARGET_NAME} INTERFACE ${IMPLOT_LIB_NAME})
-else()
-    target_link_libraries(${MAIN_TARGET_NAME} PUBLIC ${IMPLOT_LIB_NAME})
-endif()
+target_link_libraries(${MAIN_TARGET_NAME} PUBLIC ${IMPLOT_LIB_NAME})
