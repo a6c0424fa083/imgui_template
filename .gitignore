@@ -1,0 +1,6 @@
+*build*/*
+Debug/*
+Release/*
+logs/*.log
+**/.DS_Store
+.idea/*

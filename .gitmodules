@@ -1,0 +1,9 @@
+[submodule "lib/thirdParty/glfw"]
+	path = lib/thirdParty/glfw
+	url = https://github.com/glfw/glfw.git
+[submodule "lib/thirdParty/imgui"]
+	path = lib/thirdParty/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "lib/thirdParty/implot"]
+	path = lib/thirdParty/implot
+	url = https://github.com/epezent/implot.git
