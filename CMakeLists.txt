@@ -25,6 +25,7 @@ project("Template"
 
 # include necessary modules
 include("${CMAKE_SOURCE_DIR}/cmake/funcs/Warnings.cmake")
+include("${CMAKE_SOURCE_DIR}/cmake/funcs/libraryAssist.cmake")
 
 # configure cmake_config.h.in file
 configure_file("${CMAKE_SOURCE_DIR}/cmake_config.h.in" "${CMAKE_BINARY_DIR}/generated/cmake_config.h")
